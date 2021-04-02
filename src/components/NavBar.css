@@ -1,0 +1,17 @@
+.NavBar {
+    background-color: burlywood;
+    padding: 40px 50px 40px 50px;
+    margin: 0;
+}
+
+.NavBarTitle {
+    float: left;
+    padding: 0px;
+    margin: 0;
+}
+
+.NavBarCart {
+    float: right;
+    padding: 0px;
+    margin: 0;
+}
