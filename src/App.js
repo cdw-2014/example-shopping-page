@@ -1,7 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar'
-import SearchResults from './components/SearchResults'
-import ShoppingList from './components/ShoppingList'
+import Home from './pages/Home'
 import {CartProvider} from './context/CartContext'
 import {SearchResultsProvider} from './context/SearchResultsContext'
 
@@ -11,8 +10,7 @@ const App = () => {
       <SearchResultsProvider>
         <CartProvider>
           <NavBar />
-          <SearchResults />
-          <ShoppingList />
+          <Home />
         </CartProvider>
       </SearchResultsProvider>
       
