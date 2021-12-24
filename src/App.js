@@ -1,8 +1,8 @@
-import './App.css';
-import NavBar from './components/NavBar'
-import Home from './pages/Home'
-import {CartProvider} from './context/CartContext'
-import {SearchResultsProvider} from './context/SearchResultsContext'
+import "./App.css"
+import NavBar from "./components/NavBar"
+import Home from "./pages/Home"
+import { CartProvider } from "./context/CartContext"
+import { SearchResultsProvider } from "./context/SearchResultsContext"
 
 const App = () => {
   return (
@@ -13,9 +13,8 @@ const App = () => {
           <Home />
         </CartProvider>
       </SearchResultsProvider>
-      
     </div>
   )
 }
 
-export default App;
+export default App
